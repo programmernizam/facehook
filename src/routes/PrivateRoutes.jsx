@@ -7,9 +7,9 @@ export default function PrivateRoutes() {
   return (
     <>
       {auth.user ? (
-        <main className="mx-auto max-w-[1020px] py-8">
+        <main>
+          <Header />
           <div className="container">
-            <Header />
             <Outlet />
           </div>
         </main>

@@ -18,5 +18,7 @@ module.exports = {
     ],
     "react/prop-types": 0,
     "no-unsafe-optional-chaining": 0,
+    "react-hooks/exhaustive-deps": 0,
+    "no-useless-catch": 0
   },
 }

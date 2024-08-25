@@ -514,6 +514,14 @@
       "avatar": "uploads/avatar/avatar-1708802845791-219561000.png",
       "email": "rambo@email.com",
       "bio": "I am Rambo!!!"
+    },
+    {
+      "id": "300aeddd-0305-44bb-a5f1-209a563ccb8c",
+      "password": "$2b$08$W9Fsud2zthVbo4Om3X/VBO8DDhe1gVv9v6601I02Npzvz3dYXPc3S",
+      "firstName": "MD Nizam",
+      "lastName": "uddin",
+      "avatar": null,
+      "email": "info.mdnizamuddin@gmail.com"
     }
   ]
 }
