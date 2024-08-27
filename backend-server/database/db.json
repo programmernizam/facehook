@@ -523,6 +523,22 @@
       "avatar": "uploads/avatar/avatar-1724785089768-367847505.png",
       "email": "info.mdnizamuddin@gmail.com",
       "bio": "Nizam is an excellent member of LWS. Who keeps himself updated with technology and stays relevant. He is a tech enthusiast and does not hesitate to help developers in need."
+    },
+    {
+      "id": "823fb6e8-1499-4af4-83d9-2b66ceb5ae44",
+      "password": "$2b$08$KkLEuiI56MsT5dEbJAgWZuM8M.GFzMwcrUML78.xv5ZAESDO0jMsG",
+      "firstName": "Rana",
+      "lastName": "Khan",
+      "avatar": "uploads/avatar/avatar-1724789909623-772719759.jpg",
+      "email": "rana@gmail.com"
+    },
+    {
+      "id": "d800d283-1f6b-4ea5-bb78-5fbf2d45011e",
+      "password": "$2b$08$PffFS06RorOeisTt7X.IyuXIV6lLvuYr9uUVDDMrbdswzZJ/0TS9S",
+      "firstName": "Rony",
+      "lastName": "Islam",
+      "avatar": null,
+      "email": "rony@gmail.com"
     }
   ]
 }
