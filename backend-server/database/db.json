@@ -520,8 +520,9 @@
       "password": "$2b$08$W9Fsud2zthVbo4Om3X/VBO8DDhe1gVv9v6601I02Npzvz3dYXPc3S",
       "firstName": "MD Nizam",
       "lastName": "uddin",
-      "avatar": null,
-      "email": "info.mdnizamuddin@gmail.com"
+      "avatar": "uploads/avatar/2.png",
+      "email": "info.mdnizamuddin@gmail.com",
+      "bio": "Nizam is an excellent member of LWS. Who keeps himself updated with technology and stays relevant. He is a tech enthusiast and does not hesitate to help developers in need."
     }
   ]
 }

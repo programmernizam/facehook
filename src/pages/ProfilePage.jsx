@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import { actions } from "../actions";
+import MyPost from "../components/profile/MyPost";
+import ProfileInfo from "../components/profile/ProfileInfo";
 import useAuth from "../hooks/useAuth";
 import useAxios from "../hooks/useAxios";
 import { useProfile } from "../hooks/useProfile";
@@ -33,10 +35,10 @@ const ProfilePage = () => {
   }
 
   return (
-    <div>
-      Welcome {state?.user?.firstName} {state?.user?.lastName}
-      <p>You have {state?.posts.length} posts.</p>
-    </div>
+    <>
+      <ProfileInfo />
+      <MyPost />
+    </>
   );
 };
 

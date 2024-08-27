@@ -23,6 +23,13 @@ const profileReducer = (state, action) => {
                 posts: action.data.posts
             }
         }
+        case actions.profile.USER_DATA_EDITING: {
+            return {
+                ...state,
+                loading: false,
+                user: action.data
+            }
+        }
         case actions.profile.DATA_FETCH_ERROR: {
             return {
                 ...state,
@@ -37,3 +44,4 @@ const profileReducer = (state, action) => {
 }
 
 export { initialState, profileReducer }
+
