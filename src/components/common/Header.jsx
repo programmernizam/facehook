@@ -31,7 +31,7 @@ export default function Header() {
             <img src={Notification} alt="Notification" />
           </button>
           <Logout />
-          <button className="flex-center !ml-8 gap-3">
+          <Link className="flex-center !ml-8 gap-3" to="/me">
             <span className="text-lg font-medium lg:text-xl">
               {user?.firstName}
             </span>
@@ -44,7 +44,7 @@ export default function Header() {
               }
               alt="avatar"
             />
-          </button>
+          </Link>
         </div>
         {/* <!-- nav links ends --> */}
       </div>

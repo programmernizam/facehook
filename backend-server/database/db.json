@@ -6,9 +6,9 @@
       "image": "uploads/posts/image-1708777029165-711540010.jpg",
       "postType": "image",
       "author": {
-        "id": "6fd3ed42-2275-4d5f-a436-e5a3bf586c56",
-        "name": "Saad Hasan",
-        "avatar": "uploads/avatar/avatar-1708776329024-653677858.png"
+        "id": "300aeddd-0305-44bb-a5f1-209a563ccb8c",
+        "name": "MD Nizam Uddin",
+        "avatar": "uploads/avatar/2.png"
       },
       "comments": [
         {
@@ -62,9 +62,7 @@
           }
         }
       ],
-      "likes": [
-        "6fd3ed42-2275-4d5f-a436-e5a3bf586c56"
-      ],
+      "likes": ["6fd3ed42-2275-4d5f-a436-e5a3bf586c56"],
       "createAt": "2024-02-24T12:17:09.169Z"
     },
     {
@@ -109,9 +107,7 @@
           }
         }
       ],
-      "likes": [
-        "6fd3ed42-2275-4d5f-a436-e5a3bf586c56"
-      ],
+      "likes": ["6fd3ed42-2275-4d5f-a436-e5a3bf586c56"],
       "createAt": "2024-02-24T12:18:21.686Z"
     },
     {
@@ -400,9 +396,7 @@
           }
         }
       ],
-      "likes": [
-        "6fd3ed42-2275-4d5f-a436-e5a3bf586c56"
-      ],
+      "likes": ["6fd3ed42-2275-4d5f-a436-e5a3bf586c56"],
       "createAt": "2024-02-25T06:59:36.184Z"
     },
     {
