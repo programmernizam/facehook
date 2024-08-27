@@ -3,7 +3,7 @@ import { useProfile } from "./useProfile";
 export function useAvatar(post) {
     const { state } = useProfile()
 
-    const isMe = (post?.author?.id === state?.user.id);
+    const isMe = post?.author?.id === state?.user?.id;
 
     const avatar = isMe ? `${state?.user?.avatar}` : `${post?.author?.avatar}`;
 
