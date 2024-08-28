@@ -189,7 +189,8 @@
       "likes": [
         "ea168626-058e-49dd-b23c-3000e7bd0172",
         "8fc0f0d6-396a-4ef4-922b-27ef5b4e8526",
-        "1aeef0f0-77ba-456b-8b5b-d4145a9b5410"
+        "1aeef0f0-77ba-456b-8b5b-d4145a9b5410",
+        "300aeddd-0305-44bb-a5f1-209a563ccb8c"
       ],
       "createAt": "2024-02-09T12:19:50.876Z"
     },
@@ -520,7 +521,7 @@
       "password": "$2b$08$W9Fsud2zthVbo4Om3X/VBO8DDhe1gVv9v6601I02Npzvz3dYXPc3S",
       "firstName": "MD Nizam",
       "lastName": "uddin",
-      "avatar": "uploads/avatar/avatar-1724785089768-367847505.png",
+      "avatar": "uploads/avatar/avatar-1724837755499-738353696.png",
       "email": "info.mdnizamuddin@gmail.com",
       "bio": "Nizam is an excellent member of LWS. Who keeps himself updated with technology and stays relevant. He is a tech enthusiast and does not hesitate to help developers in need."
     },
