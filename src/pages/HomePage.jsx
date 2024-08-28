@@ -1,12 +1,13 @@
-import { useEffect, useReducer } from "react";
+import { useEffect } from "react";
 import { actions } from "../actions";
+import NewPost from "../components/post/NewPost";
 import PostList from "../components/post/PostList";
 import useAxios from "../hooks/useAxios";
-import { initialState, postReducer } from "../reducers/PostReducer";
+import usePost from "../hooks/usePost";
 
 const HomePage = () => {
   const { api } = useAxios();
-  const [state, dispatch] = useReducer(postReducer, initialState);
+  const { state, dispatch } = usePost();
 
   useEffect(() => {
     dispatch({ type: actions.post.DATA_FETCHING });
@@ -16,7 +17,10 @@ const HomePage = () => {
           `${import.meta.env.VITE_SERVER_BASE_URL}/posts`
         );
         if (response.status === 200) {
-          dispatch({ type: actions.post.DATA_FETCHED, data: response.data });
+          const sortedPosts = response.data.sort(
+            (a, b) => new Date(b.createAt) - new Date(a.createAt)
+          );
+          dispatch({ type: actions.post.DATA_FETCHED, data: sortedPosts });
         }
       } catch (error) {
         dispatch({
@@ -36,6 +40,7 @@ const HomePage = () => {
   }
   return (
     <>
+      <NewPost />
       <PostList posts={state?.posts} />
     </>
   );

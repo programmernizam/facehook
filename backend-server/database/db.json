@@ -493,6 +493,23 @@
       "comments": [],
       "likes": [],
       "createAt": "2024-02-25T07:16:53.349Z"
+    },
+    {
+      "id": "1f1e0947-493d-40da-a56f-517acceba48d"
+    },
+    {
+      "id": "4d8c4af4-36b1-46dc-8b3a-0a68d0ddfd6b",
+      "content": "Hello",
+      "image": "uploads/posts/image-1724870248885-286764298.jpg",
+      "postType": "image",
+      "author": {
+        "id": "300aeddd-0305-44bb-a5f1-209a563ccb8c",
+        "name": "MD Nizam uddin",
+        "avatar": "uploads/avatar/avatar-1724867744234-288764990.png"
+      },
+      "comments": [],
+      "likes": [],
+      "createAt": "2024-08-28T18:37:28.888Z"
     }
   ],
   "comments": [],
@@ -553,7 +570,7 @@
       "password": "$2b$08$W9Fsud2zthVbo4Om3X/VBO8DDhe1gVv9v6601I02Npzvz3dYXPc3S",
       "firstName": "MD Nizam",
       "lastName": "uddin",
-      "avatar": "uploads/avatar/avatar-1724837755499-738353696.png",
+      "avatar": "uploads/avatar/avatar-1724867744234-288764990.png",
       "email": "info.mdnizamuddin@gmail.com",
       "bio": "Nizam is an excellent member of LWS. Who keeps himself updated with technology and stays relevant. He is a tech enthusiast and does not hesitate to help developers in need."
     },
